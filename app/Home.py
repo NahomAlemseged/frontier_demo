@@ -50,10 +50,10 @@ At the heart of this tool is a **novel frontier methodology**, co-developed by o
 The image below shows how our method effectively removes outliers, creating a more realistic and policy-relevant benchmark compared to all other available methods.
 ''')
 
-st.image(
-    "app/assets/fig_7_gdp_le_log_log.png",
-    caption="Comparison of benchmarking tools in estimating efficiency frontier, and outlier trimming (red dots)."
-)
+# st.image(
+#     "app/assets/fig_7_gdp_le_log_log.png",
+#     caption="Comparison of benchmarking tools in estimating efficiency frontier, and outlier trimming (red dots)."
+# )
 
 st.markdown(r'''
 ---
