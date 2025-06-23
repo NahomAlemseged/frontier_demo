@@ -1,8 +1,10 @@
 import streamlit as st
 
-st.markdown('''
-# About This App
+# --- Page Title ---
+st.title("📊 About This App")
 
+# --- Main Content ---
+st.markdown(r'''
 ## Introduction
 
 Welcome to this interactive tool for evaluating **Under-Five Mortality (U5M) reduction performance** across African countries from **2000 to 2019**, adjusted for healthcare spending per capita.
@@ -47,13 +49,17 @@ At the heart of this tool is a **novel frontier methodology**, co-developed by o
 
 ### Visual Example: Outlier Trimming in Action
 
-The image below shows how our method effectively removes outliers, creating a more realistic and policy-relevant benchmark as compared to all other available methods.
+The image below shows how our method effectively removes outliers, creating a more realistic and policy-relevant benchmark compared to all other available methods.
 ''')
 
-# ✅ This line must be outside the triple-quoted Markdown block
-st.image("app/assets/fig_7_gdp_le_log_log.png", caption="Comparison of benchmarking tools in estimating efficiency frontier, and outlier trimming (red dots)")
+# --- Image (outside markdown) ---
+st.image(
+    "app/assets/fig_7_gdp_le_log_log.png",
+    caption="Comparison of benchmarking tools in estimating efficiency frontier, and outlier trimming (red dots)."
+)
 
-st.markdown('''
+# --- Additional Markdown ---
+st.markdown(r'''
 ---
 
 ## Data Sources
@@ -73,7 +79,11 @@ st.markdown('''
 
 ---
 
-Second phase of the project that assesses governance and human resources that explain inefficiencies have been conducted but not included here. We have found some interesting results.
+## Note
+
+A second phase of this project, which assesses governance and health workforce contributions to inefficiency, has been conducted but is **not included here**. Early results are promising.
+
+---
 
 ## Let’s Collaborate
 
@@ -84,4 +94,3 @@ _We’re open to collaboration, expansion, and case study development._
 
 👉 _Let’s connect to turn insight into impact._
 ''')
-
