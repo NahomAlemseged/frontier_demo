@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.markdown(r'''
-# 📊 About This App
+#  About This App
 
 ## Introduction
 
@@ -9,7 +9,7 @@ Welcome to this interactive tool for evaluating **Under-Five Mortality (U5M) red
 
 While most global health metrics focus on absolute declines in U5M, this app asks a deeper, more equitable question:
 
-> _"How well did countries perform, given the resources they had?"_ 👀
+> _"How well did countries perform, given the resources they had?"
 
 This shift in perspective helps identify countries that **outperformed expectations**—the potential **Exemplars**—as well as those where outcomes **fell short relative to investment**.
 
@@ -29,7 +29,7 @@ By comparing child mortality outcomes relative to investment levels, this tool s
 
 ## Methodology Snapshot
 
-### ✅ Stochastic Frontier Meta-Analysis (SFMA)
+### Stochastic Frontier Meta-Analysis (SFMA)
 
 At the heart of this tool is a **novel frontier methodology**, co-developed by our team. It represents a **major leap forward** in performance benchmarking by:
 
@@ -37,11 +37,11 @@ At the heart of this tool is a **novel frontier methodology**, co-developed by o
 - **Trimming outliers** automatically (a key limitation in earlier methods)  
 - Delivering more **robust, context-aware results** without relying on rigid assumptions
 
-📌 This method was successfully used in a World Bank-supported analysis and was later **acknowledged for correctly removing outliers** that distorted prior results.
+ This method was successfully used in a World Bank-supported analysis and was later **acknowledged for correctly removing outliers** that distorted prior results.
 
-🧠 It outperforms conventional tools like DEA or parametric SFA—making it one of the **most advanced frontier approaches currently available** for health systems analysis.
+ It outperforms conventional tools like DEA or parametric SFA—making it one of the **most advanced frontier approaches currently available** for health systems analysis.
 
-➡️ [Read our technical paper on arXiv](https://arxiv.org/abs/2404.04301)
+ # [Read our technical paper on arXiv](https://arxiv.org/abs/2404.04301)
 
 ---
 
@@ -85,7 +85,7 @@ A second phase of this project, which assesses governance and health workforce c
 
 We believe this tool can inform the next wave of global health decision-making.
 
-📣 Interested in applying this framework to your country, organization, or domain?  
+Interested in applying this framework to your country, organization, or domain?  
 _We’re open to collaboration, expansion, and case study development._
 
 👉 _Let’s connect to turn insight into impact._
