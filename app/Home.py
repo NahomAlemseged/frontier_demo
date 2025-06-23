@@ -1,17 +1,15 @@
 import streamlit as st
 
-# --- Page Title ---
-st.title("📊 About This App")
-
-# --- Main Content ---
 st.markdown(r'''
+# 📊 About This App
+
 ## Introduction
 
 Welcome to this interactive tool for evaluating **Under-Five Mortality (U5M) reduction performance** across African countries from **2000 to 2019**, adjusted for healthcare spending per capita.
 
 While most global health metrics focus on absolute declines in U5M, this app asks a deeper, more equitable question:
 
-> _"How well did countries perform, given the resources they had?"_
+> _"How well did countries perform, given the resources they had?"_ 👀
 
 This shift in perspective helps identify countries that **outperformed expectations**—the potential **Exemplars**—as well as those where outcomes **fell short relative to investment**.
 
@@ -52,13 +50,11 @@ At the heart of this tool is a **novel frontier methodology**, co-developed by o
 The image below shows how our method effectively removes outliers, creating a more realistic and policy-relevant benchmark compared to all other available methods.
 ''')
 
-# --- Image (outside markdown) ---
 st.image(
     "app/assets/fig_7_gdp_le_log_log.png",
     caption="Comparison of benchmarking tools in estimating efficiency frontier, and outlier trimming (red dots)."
 )
 
-# --- Additional Markdown ---
 st.markdown(r'''
 ---
 
