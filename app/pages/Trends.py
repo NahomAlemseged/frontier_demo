@@ -7,7 +7,7 @@ import numpy as np
 st.title("📈 Inefficiency Trends Dashboard")
 
 # -- Load Data --
-df_front = pd.read_csv('data/df_all_year.csv')
+df_front = pd.read_csv('../data/df_all_year.csv')
 
 # -- Sidebar Country Selection --
 countries = sorted(df_front['Country Code'].unique())
