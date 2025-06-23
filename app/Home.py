@@ -1,5 +1,6 @@
 import streamlit as st
-'''
+
+st.markdown('''
 # About This App
 
 ## Introduction
@@ -47,13 +48,13 @@ At the heart of this tool is a **novel frontier methodology**, co-developed by o
 ### Visual Example: Outlier Trimming in Action
 
 The image below shows how our method effectively removes outliers, creating a more realistic and policy-relevant benchmark as compared to all other available methods.
+''')
 
+# ✅ This line must be outside the triple-quoted Markdown block
+st.image("app/assets/fig_7_gdp_le_log_log.png", caption="Comparison of benchmarking tools in estimating efficiency frontier, and outlier trimming (red dots)")
 
-'''
-st.image("app/assets/fig_7_gdp_le_log_log.png", caption="Comparison of benchmarking tools in estimating efficiency frontier, and also outlier trimming as indicated in red")
-
-'''
- ---
+st.markdown('''
+---
 
 ## Data Sources
 
@@ -69,10 +70,10 @@ st.image("app/assets/fig_7_gdp_le_log_log.png", caption="Comparison of benchmark
 - Ministries of Health and Planning  
 - Researchers and analysts focused on health system performance  
 - NGOs working in child health, accountability, or impact measurement
- 
+
 ---
 
-Second phase of the project that assesses governance and human resources that explain inefficiencies  have been conduted but not included here. We have found some interesting results.
+Second phase of the project that assesses governance and human resources that explain inefficiencies have been conducted but not included here. We have found some interesting results.
 
 ## Let’s Collaborate
 
@@ -82,7 +83,5 @@ We believe this tool can inform the next wave of global health decision-making.
 _We’re open to collaboration, expansion, and case study development._
 
 👉 _Let’s connect to turn insight into impact._
+''')
 
- 
- 
- '''
