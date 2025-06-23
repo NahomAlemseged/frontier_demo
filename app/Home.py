@@ -50,7 +50,7 @@ The image below shows how our method effectively removes outliers, creating a mo
 
 
 '''
-st.image("assets/fig_7_gdp_le_log_log.png", caption="Comparison of benchmarking tools in estimating efficiency frontier, and also outlier trimming as indicated in red")
+st.image("app/assets/fig_7_gdp_le_log_log.png", caption="Comparison of benchmarking tools in estimating efficiency frontier, and also outlier trimming as indicated in red")
 
 '''
  ---
