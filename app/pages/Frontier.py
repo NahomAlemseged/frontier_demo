@@ -5,7 +5,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 # df = pd.read_csv('../df_display.csv')
 # df_raw = pd.read_csv('../data/results_csv/frontier_data_final.csv')
-df_front = pd.read_csv('../data/df_all_year.csv')
+# df_front = pd.read_csv('../data/df_all_year.csv')
+df_front = pd.read_csv('app/data/df_all_year.csv')
+
 
 # df_1 = df_raw[['ihme_pe','ihme_high','ihme_low','ihme_hcepc','Urban_sh','Country Code','year','sdi','Urban_sh','corruption', 'peace_stab', 'regulatory','mean_chw', 'mean_nurse', 'mean_pharm', 'mean_phys']]
 # df_1['ihme_pe'] = np.log(df_1['ihme_pe'])
